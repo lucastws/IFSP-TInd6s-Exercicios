@@ -1,0 +1,4 @@
+Professor, gostaria de deixar explicíto que:
+	1. O nome do projeto está "ContatosJSP_2" pois minha primeira tentativa falhou e tive que usar outro nome.
+	2. Em função de fazer o sistema funcionar na minha máquina, tive que 
+		alterar as funções "processRequest" para "service". Todo o resto permanece o mesmo.

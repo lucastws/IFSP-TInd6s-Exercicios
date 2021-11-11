@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Desafio 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <H1 align="center">Desafio 2</H1>
+        <form method="post" action="ServConserto">
+            <h2 align="center">Dados</h2>
+            <label for="nome_funileiro">Nome do funileiro:</label>
+            <input type="text" id="nome_mecanico" name="nome_mecanico" 
+                   size="15" maxlength="15">
+            <br>
+            <label for="horas_mecanico">Horas de trabalho (mecânico):</label>
+            <input type="number" id="horas_mecanico" name="horas_mecanico" 
+                   min="1" max="12" step="0.01">
+            <br>
+            <label for="nome_funileiro">Nome do funileiro:</label>
+            <input type="text" id="nome_funileiro" name="nome_funileiro" 
+                   size="15" maxlength="15">
+            <br>
+            <label for="horas_funileiro">Horas de trabalho (funileiro):</label>
+            <input type="number" id="horas_funileiro" name="horas_funileiro" 
+                   min="1" max="12" step="0.01">
+            <br>
+            <label for="placa_veiculo">Placa do veículo:</label>
+            <input type="text" id="placa_veiculo" name="placa_veiculo" 
+                   size="7" maxlength="7">
+            <br>
+            <h2 align="center">Serviço</h2>
+            <label for='trabalho_mecanico'>Horas de conserto (mecânico):</label>
+            <input type='number' id='trabalho_mecanico' 
+                   name='trabalho_mecanico' min='1' max='12' step='0.01'>
+            <br>
+            <label for='trabalho_funileiro'>Horas de conserto (funileiro):
+            </label>
+            <input type='number' id='trabalho_funileiro' 
+                   name='trabalho_funileiro' min='1' max='12' step='0.01'>
+            <br>
+            <input type="submit" value="Consertar">
+        </form>
+    </body>
+</html>

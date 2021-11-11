@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Atividade Fatura</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <H2 align="center">Atividade Fatura</H2>
+            <form method="post" action="total">
+                <p align="center">Produto (ID):<input type="number" name="id"
+                                                 min="1" max="9999"></p>
+                <p align="center">Descrição:<input type="text" name="desc"
+                                              size="25" maxlength="25"></p>
+                <p align="center">Quantidade:<input type="number" name="quant"
+                                                 min="1" max="9999"></p>
+                <p align="center">Preço:<input type="text" name="preco"
+                                              size="8" maxlength="8"></p>
+                <p align="center"><input type="submit" value="Calcular"></p>
+            </form>
+        </div>
+    </body>
+</html>
